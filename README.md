@@ -4,7 +4,7 @@ This project implements a chess game in Python with a graphical user interface a
 
 ## Features
 
-* **Player vs Computer**: Choose to play as White or Black against an AI.
+* **Player vs AIr**: Choose to play as White or Black against an AI.
 * **AI Algorithms**: Alpha-beta pruning with move ordering and quiescence search for improved performance; fallback to minimax when desired.
 * **Zobrist Hashing**: Fast position hashing to detect threefold repetition draws and speed up transposition handling.
 * **Evaluation Function**: Material balance, piece–square tables, passed-pawn bonuses, king activity, and endgame coordination metrics.
@@ -66,11 +66,3 @@ python main.py
 
 * **Search Depth**: Modify `Search.DEPTH` in `search.py` to increase or decrease AI lookahead.
 * **Color Schemes**: Edit `COLOR_SCHEMES` in `main.py` to add or change board colors.
-
-## Contributing
-
-Contributions, bug reports, and feature requests are welcome. Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
