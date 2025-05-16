@@ -1,4 +1,4 @@
-# Chess Game - Player vs Computer
+# Chess Game - Player vs AI
 
 This project implements a chess game in Python with a graphical user interface and a computer opponent powered by minimax and alpha-beta pruning enhanced with quiescence search and Zobrist hashing.
 
